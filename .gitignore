@@ -1,0 +1,5 @@
+# vscode files and folders
+.vscode
+
+# files generated from compilation
+*.exe

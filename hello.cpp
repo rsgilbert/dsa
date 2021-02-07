@@ -9,6 +9,7 @@ int main() {
     enum Day { SUM, MON, TUE, WED };
     enum Mood { HAPPY = 3, SAD = 1, ANXIOUS = 4, SLEEPY = 2};
 
+    short int d = 4;
     Day today = MON;
     Mood currentMood = HAPPY;
 

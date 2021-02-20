@@ -26,9 +26,10 @@ protected:
      */
     virtual long firstValue();
     /**
+     * Pure virtual function
      * Step the progression to the next value and return it
      */ 
-    virtual long nextValue();
+    virtual long nextValue() = 0;
 
 protected:
     /**

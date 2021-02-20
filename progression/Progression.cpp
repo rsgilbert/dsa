@@ -17,7 +17,3 @@ long Progression::firstValue()
     return cur;
 }
 
-long Progression::nextValue()
-{
-    return ++cur;
-}

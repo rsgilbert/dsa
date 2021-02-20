@@ -6,12 +6,12 @@
 
 using namespace std;
 
-
+// Models arithmetic progression
 class ArithProgression : public Progression
 {
 public:
     /**
-     * Constructor for ArithProgression
+     * Arithmetic Progression.
      * i is the value to use to increment
      */
     ArithProgression(long i = 1);

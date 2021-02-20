@@ -1,7 +1,7 @@
 #include "ArithProgression.h"
 
 
-ArithProgression::ArithProgression(long i = 1) :
+ArithProgression::ArithProgression(long i) :
     Progression(), inc(i)
 {}
 

@@ -1,5 +1,8 @@
 Compile individual files with:
 g++ -o hello hello.cpp
 
+Compile multiple files:
+g++ Hello1.cpp Hello2.cpp
+
 After words you can run the generate executable file.
 In windows: .\hello.exe

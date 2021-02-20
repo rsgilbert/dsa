@@ -7,6 +7,16 @@ int main()
     Person p1 = Person("John Lugwe", "J100");
     Student s1 = Student("Kem Kali", "K004", "BSC", 2020);
 
-    p1.print();
-    s1.print();
+
+    // p1.print();
+    // s1.print();
+
+     // static binding
+    Person* pp[4];
+    pp[0] = &p1;
+    pp[1] = &s1;
+
+    pp[0]->print();
+    pp[1]->print();
+    
 }

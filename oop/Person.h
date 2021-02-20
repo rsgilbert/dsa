@@ -14,8 +14,10 @@ private:
 public:
     Person(const string& nm, const string& id);
     virtual void print();
-    string getName();
-    virtual ~Person();
+    
+    string getName() { return name; }
+
+    virtual ~Person() {}
 };
 
 #endif

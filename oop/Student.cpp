@@ -12,3 +12,8 @@ void Student::print()
     cout << "Major " << major << endl;
     cout << "Year " << gradYear << endl;
 }
+
+void Student::changeMajor(const string& newMajor)
+{
+    major = newMajor;
+}

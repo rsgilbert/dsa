@@ -3,3 +3,4 @@
 
 # files generated from compilation
 *.exe
+*.out

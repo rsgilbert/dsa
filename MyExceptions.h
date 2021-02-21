@@ -20,7 +20,7 @@ public:
 class IndexOutOfBounds : public RuntimeException
 {
 public:
-    IndexOutOfBounds() : RuntimeException("Index out of bounds") {}
+    IndexOutOfBounds(const string err) : RuntimeException(err) {}
 };
 
 

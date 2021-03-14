@@ -26,3 +26,13 @@ void StringLinkedList::addFront(const string& e)
     v->next = head;
     head = v;
 }
+
+void StringLinkedList::removeFront() 
+{
+    if(!empty()) 
+    {
+        StringNode* oldHead = head;
+        head = head->next;
+        delete oldHead;
+    }
+}

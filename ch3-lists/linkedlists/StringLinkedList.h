@@ -17,7 +17,7 @@ public:
     // get the element at the front
     const string& front() const;
 
-    // Add element to from of the list
+    // Add element to front of the list
     void addFront(const string& e);
 
     // Remove front element from list

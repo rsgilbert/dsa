@@ -1,4 +1,3 @@
-#ifndef STRING_NODE_H
 #include "StringLinkedList.h"
 
 StringLinkedList::StringLinkedList() : head(NULL) {}
